@@ -25,6 +25,8 @@ class UsersController extends Controller
             'password' => 'required|confirmed|min:6'
         ]);
 
+        //保存
+
 
     }
 }
